@@ -136,8 +136,8 @@ export function GridPattern({
             key={`${x}-${y}-${index}`}
             width={width - 1}
             height={height - 1}
-            x={x * width + 1}
-            y={y * height + 1}
+            x={x ? x * width + 1 : 1 * width}
+            y={y ? y * height + 1 : 1 * height}
             fill="currentColor"
             strokeWidth="0"
           />

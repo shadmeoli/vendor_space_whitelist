@@ -20,5 +20,4 @@ interface Review {
   client: string;
   review: string;
 }
-
-export { Plan, PlansContextType, PricingCardsProps, Review };
+export type { Plan, PlansContextType, PricingCardsProps, Review };

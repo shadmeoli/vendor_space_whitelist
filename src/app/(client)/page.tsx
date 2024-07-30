@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState, createContext, useContext } from "react";
+import React, { useState, createContext, useContext, ChangeEvent } from "react";
 import { TestimonialSection } from "@/components/ui/testimonials";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { toast } from "sonner";
@@ -64,7 +64,8 @@ const reviews: Review[] = [
 
 export default function HomePage() {
   const [email, setEmail] = useState<string>("");
-  const handleEmailChange = (e) => setEmail(`${e.target?.value}`);
+  const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) =>
+    setEmail(`${e.target?.value}`);
 
   async function handleJoinClick() {
     try {
