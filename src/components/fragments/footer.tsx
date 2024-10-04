@@ -78,7 +78,6 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          {/*
           <div className="flex flex-col items-center space-y-2 md:items-start">
             <h1 className="text-2xl font-bold text-dark">Company</h1>
             <ul className="text-center md:text-left">
@@ -98,9 +97,9 @@ export default function Footer() {
                 Careers
               </li>
             </ul>
-          </div> */}
+          </div> 
 
-          {/* <div className="flex flex-col items-center space-y-2 md:items-start">
+          <div className="flex flex-col items-center space-y-2 md:items-start">
             <h1 className="text-2xl font-bold text-dark">Developers</h1>
             <ul className="text-center md:text-left">
               <li>
@@ -113,9 +112,9 @@ export default function Footer() {
                 Postman Collection
               </li>
             </ul>
-          </div> */}
+          </div>
 
-          {/* <div className="flex flex-col items-center space-y-2 md:items-start">
+          <div className="flex flex-col items-center space-y-2 md:items-start">
             <h1 className="text-2xl font-bold text-dark">Legals</h1>
             <ul className="text-center md:text-left">
               <li>
@@ -128,16 +127,16 @@ export default function Footer() {
                 Terms of Service
               </li>
             </ul>
-          </div> */}
+          </div>
 
-          {/* <div className="flex flex-col items-center space-y-2 md:items-start">
+          <div className="flex flex-col items-center space-y-2 md:items-start">
             <h1 className="text-2xl font-bold text-dark">Contact Us</h1>
             <ul className="text-center md:text-left">
               <li>support@multivendor.com</li>
               <li>+254 725 400 000</li>
               <li>Westlands, Raphta Road</li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </div>
 
